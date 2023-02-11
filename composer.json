@@ -1,0 +1,22 @@
+{
+  "name": "developer/tests_hexlet",
+  "description": "example package",
+  "autoload": {
+    "psr-4": {
+      "Developer\\TestsHexlet\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Dmitriy",
+      "email": "emit580@gmail.com"
+    }
+  ],
+  "scripts": {
+    "phpcs": "phpcs",
+    "phpcbf": "phpcbf"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "*"
+  }
+}
