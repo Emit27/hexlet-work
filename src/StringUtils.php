@@ -12,4 +12,4 @@ function capitalize(string $text)
     return "{$firstSymbol}{$restSubstring}";
 }
 
-capitalize("hello");
+capitalize("45");
